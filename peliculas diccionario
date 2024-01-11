@@ -1,0 +1,84 @@
+import json
+
+peliculas = {
+    "p01": {
+        "id": "p01",
+        "nombre": "megalodon",
+        "duracion": "2",
+        "sinopsis": "Trata sobre un tiburon gigante",
+        "genero": {
+            "comedia": {
+                "id": "01",
+                "nombre": "megalodon"
+            }
+        },
+        "actores": {
+            "A01": {
+                "id": "A01",
+                "nombre": "robert",
+                "rol": "protagonista"
+            },
+            "A02": {
+                "id": "A02",
+                "nombre": "cristina",
+                "rol": "secundario"
+            }
+        },
+        "formato": {
+            "f01": {
+                "id": "f01",
+                "nombre": "DVD",
+                "nrocopias": "2",
+                "valorprestamo": "20"
+            },
+            "f02": {
+                "id": "f02",
+                "nombre": "blueray",
+                "nrocopias": "2",
+                "valorprestamo": "20"
+            }
+        }
+    },
+    "p02": {
+        "id": "p02",
+        "nombre": "barbie",
+        "duracion": "2",
+        "sinopsis": "Trata sobre un muñeca",
+        "genero": {
+            "romantica": {
+                "id": "romantica",
+                "nombre": "barbie"
+            }
+        },
+        "actores": {
+            "A01": {
+                "id": "A01",
+                "nombre": "barbiegirl",
+                "rol": "protagonista"
+            },
+            "A02": {
+                "id": "A02",
+                "nombre": "camila",
+                "rol": "secundario"
+            }
+        },
+        "formato": {
+            "f01": {
+                "id": "f01",
+                "nombre": "DVD",
+                "nrocopias": "2",
+                "valorprestamo": "80"
+            },
+            "f02": {
+                "id": "f02",
+                "nombre": "blueray",
+                "nrocopias": "2",
+                "valorprestamo": "70"
+            }
+        }
+    }
+}
+
+with open('peliculas_diccionario.json', 'w') as archivo:
+    json.dump(peliculas, archivo)
+    print("Base de datos peliculas cargado con éxito")

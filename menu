@@ -1,0 +1,69 @@
+import json
+
+
+
+while True:
+    saludo=int(input("""
+      Bienvenidos a blockbuster
+      nos alegra tenerte aca!
+      selecciona porfavor una opción
+      (1) Administrar los generos 
+      (2)Administrador de actores
+      (3) Administrador de  formatos  
+      (4) gestor de informes
+      (5) gestor de peliculas
+      (6)salir
+      """)) 
+
+
+    if saludo==1:
+        num1=int(input("""estas en administrador de generos ingresa un numero
+    1 crear genero
+    2 listar generos
+    3 regresar a menu principal
+    """))
+        from modulo1 import gestor_degeneros
+        print (gestor_degeneros(num1))
+    
+    
+    if saludo==2:
+        num2=int(input("""estas en administrador de generos ingresa un numero
+    1 crear actor 
+    2 listar actores
+    3 regresar a menu principal
+    """))
+        from actores import gestor_deactores
+        print (gestor_deactores(num2))
+
+    if saludo==3:
+        num3=int(input("""estas en administrador de generos ingresa un numero
+    1 crear formatos
+    2 listar formatos
+    3 regresar a menu principal
+    """))
+        from formato import gestor_deformatos
+        print (gestor_deformatos(num3))    
+    
+        
+    
+
+        
+    elif saludo == 6:
+        break
+    
+
+
+
+
+                                                                                                                           
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
