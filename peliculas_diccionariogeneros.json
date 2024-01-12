@@ -1,0 +1,66 @@
+{
+  "p01": {
+    "id": "p01",
+    "nombre": "megalodon",
+    "duracion": "2",
+    "sinopsis": "Trata sobre un tiburon gigante",
+    "genero": {
+      "comedia": {
+        "id": "01",
+        "nombre": "ayer"
+      },
+      "nuevo": {
+        "id": "3",
+        "nombre": "ursula"
+      }
+    },
+    "actores": {
+      "A01": {
+        "id": "A01",
+        "nombre": "robert",
+        "rol": "protagonista"
+      },
+      "A02": {
+        "id": "A02",
+        "nombre": "cristina",
+        "rol": "secundario"
+      }
+    },
+    "formato": {
+      "id": "b",
+      "nombre": "b"
+    }
+  },
+  "p02": {
+    "id": "p02",
+    "nombre": "barbie",
+    "duracion": "2",
+    "sinopsis": "Trata sobre un mu\u00f1eca",
+    "genero": {
+      "romantica": {
+        "id": "romantica",
+        "nombre": "barbie"
+      },
+      "suspenso": {
+        "id": "5",
+        "nombre": "la isla "
+      }
+    },
+    "actores": {
+      "A01": {
+        "id": "A01",
+        "nombre": "barbiegirl",
+        "rol": "protagonista"
+      },
+      "A02": {
+        "id": "A02",
+        "nombre": "cristina",
+        "rol": "secundario"
+      }
+    },
+    "formato": {
+      "id": "b",
+      "nombre": "b"
+    }
+  }
+}

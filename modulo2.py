@@ -16,7 +16,7 @@ def gestor_deactores(num2):
                     "nombre": nuevo_nombreactor,
                 }
 
-                datos['actores'] = nuevo_actor1
+                datos['actores'][nuevo_actor1] = nuevo_actor1
 
             with open('peliculas_diccionario.json', 'w') as archivo:
                 json.dump(peliculas_diccionario, archivo, indent=2)
