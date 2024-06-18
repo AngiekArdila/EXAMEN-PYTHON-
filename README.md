@@ -14,4 +14,4 @@ Blockbuster is an application designed to manage a comprehensive media database.
 - **JSON**: Utilized for storing and managing data in structured files.
 - **Command-Line Interface**: Used to provide an interactive user experience for managing media data in an effective way.
 
-## I hope you like my application.It was created with a lot effort and has a lot of my personal touch. 🌟
+## I hope you like my application.It was created with a lot effort and has a lot of my personal touch. 🌟 Thanks 
